@@ -1,0 +1,69 @@
+div.animation{
+    width: 100%;
+    height: 100vh;
+    background-color:#e08958 ;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#first{
+    stroke-dasharray: 696px;
+    stroke-dashoffset: 696px;
+    animation: fadeInside 0.6s ease-in forwards;
+}
+#second{
+    stroke-dasharray: 418px;
+    stroke-dashoffset: 418px;
+    animation: fadeInside 0.6s ease-in forwards 0.3s;
+}
+#third{
+    stroke-dasharray: 217px;
+    stroke-dashoffset: 217px;
+    animation: fadeInside 0.6s ease-in forwards 0.6s;
+}
+#forth{
+    stroke-dasharray: 1153px;
+    stroke-dashoffset: 1153px;
+    animation: fadeInside 0.6s ease-in forwards ;
+}#fifth{
+    stroke-dasharray: 1413px;
+    stroke-dashoffset: 1413px;
+    animation: fadeInside 0.6s ease-in forwards 0.2s;
+}#sixth{
+    stroke-dasharray: 594px;
+    stroke-dashoffset: 594px;
+    animation: fadeInside 0.6s ease-in forwards 0.4s;
+}#seventh{
+    stroke-dasharray: 1283px;
+    stroke-dashoffset: 1283px;
+    animation: fadeInside 0.6s ease-in forwards 0.5s;
+}#eighth{
+    stroke-dasharray: 1221px;
+    stroke-dashoffset: 1221px;
+    animation: fadeInside 0.6s ease-in forwards 0.6s;
+}
+
+svg{
+    animation: fill 1s ease-in forwards 0.6s;
+}
+
+@keyframes fadeInside {
+    to{
+        stroke-dashoffset: 0px;
+    }
+}
+
+// fill不能用none 在動畫中無法辨識，所以要用transparent(透明)
+@keyframes fill{
+    from{
+        fill:transparent
+    }
+    to {
+        fill:white
+    }
+}

@@ -1,0 +1,31 @@
+
+.resource_page{
+    table{
+        width: 60%;
+        margin: 50px  auto 25px auto;
+        tr{
+            th{
+                background-color: rgb(103, 219, 255);  
+                padding: 5px;
+                font-size: 1.5rem;
+            }
+            td{
+                background-color: rgb(217, 243, 251);  
+                border-radius: 5px;
+                padding: 10px;
+                font-size: 1rem;
+                a{
+                    text-decoration: none;
+                }
+            }
+            
+            .th1{
+                width: 30%;
+            }
+            .th2{
+                width: 70%;
+            }
+    }
+        
+    }
+}
