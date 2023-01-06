@@ -283,6 +283,7 @@ footer a {
 main {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 30px;
 }
 main section.left {
   flex: 3 1 500px;
@@ -341,6 +342,9 @@ main section.picture {
 main section.picture img {
   width: 30vw;
   height: 90vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
 }
 main section.picture div.orangeRect {
   width: 30vw;
