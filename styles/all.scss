@@ -52,8 +52,7 @@ footer{
 main{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30px;
-
+    margin-top: 35px;
     section.left{
         flex: 3 1 500px;
         padding: 2rem;
@@ -90,7 +89,6 @@ main{
 
     // 第二頁 resume.html的css
     section.table{
-        
         flex: 3 1 500px;
         padding: 2rem;
         table{

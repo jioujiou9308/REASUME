@@ -283,7 +283,7 @@ footer a {
 main {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 30px;
+  margin-top: 35px;
 }
 main section.left {
   flex: 3 1 500px;
