@@ -213,13 +213,18 @@ svg {
      object-fit: contain;
   padding: 20px;
 }
+.note_page .card .keyWord {
+  width: 15%;
+  flex: 1 1 auto;
+  padding: 20px;
+}
 .note_page .card .note {
   width: 30%;
   flex: 1 1 auto;
   padding: 20px;
 }
 .note_page .card .from {
-  width: 30%;
+  width: 15%;
   flex: 1 1 auto;
   padding: 20px;
 }
